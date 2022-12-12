@@ -24,7 +24,6 @@ class App extends Component {
         }
         
       })
-      // !this.state.contacts.length || 
       if (!index) {
         this.setState((prev) => ({
           contacts : [...prev.contacts,{id: k++,namePhone: this.state.name, numberPhone: this.state.number}]
