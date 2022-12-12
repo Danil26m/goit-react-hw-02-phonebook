@@ -46,7 +46,6 @@ class App extends Component {
         color: '#010101'
       }}
     >
-      {/* {this.add()} */}
       <Form submit={this.nameContact} />
       {this.state.contacts.length?
       <Contacts cont={this.state} />
